@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    background-color: 2px solid red;
+}
+a{
+    background-color: 2px solid blue;
+    font-size: 40px;
+    
+}
