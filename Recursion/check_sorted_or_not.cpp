@@ -23,7 +23,7 @@ bool checksorted(int arr[] , int size , int index)
 }
 
 int main()
-{   int arr[] = {10,20,30,40,50,60};
+{   int arr[] = {10,20,30,40,40,60};
     int size = 6;
     int index = 1;
 

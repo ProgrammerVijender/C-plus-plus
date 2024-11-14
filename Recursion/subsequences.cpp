@@ -20,8 +20,6 @@ void findSubsequences(string str, string output ,int index)
     output.pop_back();
     findSubsequences(str, output,index+1);
     
-
-
 }
 int main()
 {   string str = "abc";
@@ -31,3 +29,9 @@ int main()
     findSubsequences(str, output,index);
     return 0;
 } 
+/*
+              a         " "
+            ab  
+
+
+*/  
