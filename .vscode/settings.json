@@ -14,7 +14,20 @@
         "initializer_list": "cpp",
         "unordered_map": "cpp",
         "variant": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "__config": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "deque": "cpp",
+        "memory_resource": "cpp",
+        "istream": "cpp",
+        "iterator": "cpp",
+        "locale": "cpp",
+        "memory": "cpp",
+        "new": "cpp",
+        "queue": "cpp",
+        "stack": "cpp",
+        "utility": "cpp"
     },
     "C_Cpp.errorSquiggles": "enabled"
 }
