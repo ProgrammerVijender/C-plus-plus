@@ -132,9 +132,9 @@ int main()
     // 2. using memoisation
     // vector < vector < int > > dp(capacity+1,vector<int>(n+1,-1));
     // 2.2
-    // vector<vector<int> > dp(n, vector<int>(capacity+1, -1));
-    // int ans = solveUsingMemoisation2(capacity,wt,profit,index,n,dp);
-    // cout<< "Max Profit : " <<  ans <<endl;
+    vector<vector<int> > dp(n, vector<int>(capacity+1, -1));
+    int ans = solveUsingMemoisation2(capacity,wt,profit,index,n,dp);
+    cout<< "Max Profit : " <<  ans <<endl;
 
 
 
