@@ -60,14 +60,11 @@ class Graph_without_weight {
                         parent[nbr] = frontNode;
                     }
                     // visited but not parent
-                    else if(parent[frontNode] != nbr){
+                    else if(visited[nbr] == true && nbr != parent[frontNode]){
                         return true; // cycle found
                     }
                 }
             }
-
-
-
         }
 };
 
@@ -82,7 +79,10 @@ int main(){
     g.addEdge(3,4,0);
     g.addEdge(2,5,0);
 
-    bool isCyclePresent = g.checkCycle_Undirected_BFS();
+    //src means source node from where we start BFS
+    int src = 0;
+
+    bool isCyclePresent = g.checkCycle_Undirected_BFS(src);
     if(isCyclePresent) {
         cout << "Cycle is present in the graph" << endl;
     }
